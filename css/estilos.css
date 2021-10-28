@@ -88,6 +88,22 @@ header .texto-header {
   bottom: 0;
   width: 100%;
 }
+/* VIDEO */
+
+.videocar{
+    margin-top: 110px;
+    margin-bottom: 90px;
+    height: 480;
+    width: 854;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.videocar video{
+  border-radius: 10%;
+}
+
 
 /* about us  */
 
@@ -98,6 +114,7 @@ main .sobre-nosotros {
 .contenedor-sobre-nosotros {
   display: flex;
   justify-content: space-evenly;
+  
 }
 
 .imagen-about-us {
